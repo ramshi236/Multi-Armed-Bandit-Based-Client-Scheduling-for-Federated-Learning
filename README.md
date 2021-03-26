@@ -5,6 +5,7 @@ Code Implemntion from the article Multi-Armed Bandit Based Client Scheduling for
 Aiming to minimize the time consumption of FL(Federated-Learning) training, this work considered the CS(Client-Scheduling) problem  both in the ideal scenario and non-ideal scenarios. For the ideal scenario, the writers proposed  the CS-UCB  algorithm  and  also  derived an upper bound of its performance regret. The upperbound suggests  that the performance regret of the proposed CS-UCB algorithm grows in a logarithmic way over communication rounds. However, the local datasets of clients are non-i.i.d. and  unbalanced and the availability of clients is dynamic in the non-ideal scenario. Thus, the writers introduced the fairness constraint to ensure each client could participate in a certain proportionof the communication rounds during the training process. The writers also proposed the CS-UCB-Qalgorithm based on UCB policy and virtual queue technique and provided an upper bound which shows that the performance regret of the proposed CS-UCB-Q algorithm has a sub-linear growthover  communication  rounds.
 
 link to arcticle : https://arxiv.org/pdf/2007.02315.pdf
+
 I implemented the algorithims and plot the graphs: 
 
 For the ideal scenario:
