@@ -3,7 +3,7 @@ Security in Networks - Final project
 Multi-Armed Bandit Based Client Scheduling for Federated Learning
 
 by
-Roy Schneider and Ram Shirazi
+Ram Shirazi
 """
 
 
